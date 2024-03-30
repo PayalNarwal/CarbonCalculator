@@ -164,7 +164,7 @@ def section4():
 
     with col1:
         st.subheader("💡 Monthly electricity consumption (in kWh)")
-        st.markdown("Please input your household's electricity consumption for the last month in kWh. The monthly consumption averages are between 100 and 200 kWh in India.")
+        st.markdown(" The monthly consumption averages are between 100 and 200 kWh in India.")
         electricity = st.slider("Electricity", 0.0, 500.0, key="electricity_input")
         
         st.subheader("🚗 Daily commute distance (in km)")
@@ -179,9 +179,6 @@ def section4():
         st.subheader("🍽️ Number of meals per day")
         st.markdown("Please input the number of meals you consume in a day.")
         meals = st.number_input("Meals", 0, key="meals_input")
-        
-        
-
         
 
     # Normalize inputs
@@ -364,7 +361,7 @@ def create_footer():
                 font-size: 1.3rem;            
             }
             .st-emotion-cache-z5fcl4 {
-                width: 80%;
+                width: 90%;
                 padding: 4rem 1rem 2rem;
             }
         </style>
