@@ -41,7 +41,7 @@ def create_navbar():
             }
             html {
                 scroll-behavior: smooth;
-                scroll-padding: 2rem;
+                scroll-padding: 2.2rem;
             }                       
             section {
                 padding-top: 15px;
