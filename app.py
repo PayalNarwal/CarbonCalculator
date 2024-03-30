@@ -262,6 +262,7 @@ def button():
                 font-family: "Poppins", sans-serif;
                 border: 1px solid #097969;
                 border-radius: 20px;
+                margin-bottom:3px;
             }
             .button a{
                 font-size: 1.4rem;
@@ -277,6 +278,7 @@ def button():
         <div class="button">            
             <a href="#section4">Calculate Now.🌳</a>
         </div>  
+        <br>
         """,
         unsafe_allow_html=True
     )
