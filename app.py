@@ -313,7 +313,7 @@ def create_sections():
     )
     
     # Use the defined CSS ID in your HTML content
-    st.write('<div id="Home-container"><h2>Use our interactive calculator to learn your Carbon Footprint.</h2></div>', unsafe_allow_html=True)
+    st.write('<div id="Home-container"><h3>Use our interactive calculator to learn your Carbon Footprint.</h3></div>', unsafe_allow_html=True)
 
     st.markdown('<section class="sections" id="section1"><h1>What is a Carbon Footprint?</h1></section>', unsafe_allow_html=True)
     section1()
