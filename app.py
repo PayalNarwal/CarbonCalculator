@@ -44,7 +44,7 @@ def create_navbar():
                 scroll-padding: 2.2rem;
             }                       
             section {
-                padding-top: 15px;
+                padding-top: 10px;
             }
         </style>
         <div class="navbar"> 
