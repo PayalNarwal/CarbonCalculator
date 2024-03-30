@@ -80,6 +80,7 @@ def section1():
             """,
             unsafe_allow_html=True
         )
+        button()
 
     # Add image to the right column
     with col2:
@@ -225,10 +226,10 @@ def section4():
 
         with col4:
             st.subheader("Total Carbon Footprint")
-            if total_emissions<=10:
+            if total_emissions<=7:
                 st.success(f"🌍 Your total carbon footprint is: {total_emissions} tonnes CO2 per year")
                 st.balloons()
-            elif total_emissions>10:
+            elif total_emissions>7:
                 st.error(f"🌍 Your total carbon footprint is: {total_emissions} tonnes CO2 per year")
             # st.success(f"🌍 Your total carbon footprint is: {total_emissions} tonnes CO2 per year")
             st.warning("In 2021, CO2 emissions per capita for India was 1.9 tons of CO2 per capita. Between 1972 and 2021, CO2 emissions per capita of India grew substantially from 0.39 to 1.9 tons of CO2 per capita rising at an increasing annual rate that reached a maximum of 9.41% in 2021")
@@ -270,7 +271,7 @@ def button():
             }
             .button a:hover{
                 text-decoration:underline;
-                color:#fccafa;   
+                color:midnightblue;   
             }           
         </style>
         <div class="button">            
@@ -296,7 +297,7 @@ def create_sections():
                 text-align: center;
                 border: 1px solid black;
             }
-            #Home-container h2 {
+            #Home-container h3 {
                 color: white;
                 font-size: 2rem;
                 font-weight: bold;
@@ -317,7 +318,6 @@ def create_sections():
 
     st.markdown('<section class="sections" id="section1"><h1>What is a Carbon Footprint?</h1></section>', unsafe_allow_html=True)
     section1()
-    button()
     st.markdown("---")
 
     st.markdown('<section class="sections" id="section2"><h1>Why to calculate your Carbon Footprint?</h1></section>', unsafe_allow_html=True)
@@ -351,7 +351,7 @@ def create_footer():
             .footer a{
                 text-decoration:none;
                 color:white;                
-                padding:7px;
+                padding:5px;
             }
             .footer a:hover{
                 text-decoration:underline;
@@ -366,11 +366,11 @@ def create_footer():
             }
         </style>
         <div class="footer">   
-            <p id="made-with">Made with ❤️ by Team ATLAS</p>         
+            <p id="made-with">Made with ❤️ by Team ATLAS</p>     
+            <p>Connect with the Developers:</p>            
             <a href="https://www.linkedin.com/in/payalnarwal/"> Payal 🌐</a>
             <a href="https://www.linkedin.com/in/tech-explorer-riyaaa/"> Riya Ahlawat 🌐</a>
-            <a href="https://www.linkedin.com/in/samriddhi-tiwari-837aaa261/"> Samriddhi Tiwari 🌐</a>
-            <br>
+            <a href="https://www.linkedin.com/in/samriddhi-tiwari-837aaa261/"> Samriddhi Tiwari 🌐</a>        
             <p>© 2024 ATLAS. All rights reserved.</p>
         </div>  
         """,
