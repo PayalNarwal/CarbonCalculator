@@ -163,7 +163,7 @@ def section4():
     col1, col2 = st.columns(2)
 
     with col1:
-        st.subheader("💡 Monthly electricity consumption (in kWh)")
+        st.subheader("💡Monthly electricity consumed (in kWh)")
         st.markdown(" The monthly consumption averages are between 100 and 200 kWh in India.")
         electricity = st.slider("Electricity", 0.0, 500.0, key="electricity_input")
         
@@ -341,7 +341,7 @@ def create_footer():
         """
         <style>
             .footer {
-                background-color: #900C3F; 
+                background-color: #097969; 
                 font-family: Poppins;
                 color: white;             
                 text-align:center; 
