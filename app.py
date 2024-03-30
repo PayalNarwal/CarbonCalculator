@@ -164,7 +164,7 @@ def section4():
 
     with col1:
         st.subheader("💡Monthly electricity consumed (in kWh)")
-        st.markdown(" The monthly consumption averages are between 100 and 200 kWh in India.")
+        st.markdown("Please input your monthly electricity consumed in KWh. The monthly consumption averages are between 100 and 200 kWh in India.")
         electricity = st.slider("Electricity", 0.0, 500.0, key="electricity_input")
         
         st.subheader("🚗 Daily commute distance (in km)")
