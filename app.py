@@ -362,7 +362,7 @@ def create_footer():
             }
             .st-emotion-cache-z5fcl4 {
                 width: 90%;
-                padding: 4rem 1rem 2rem;
+                padding: 1rem 1rem 2rem;
             }
         </style>
         <div class="footer">   
