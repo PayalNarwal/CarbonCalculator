@@ -254,7 +254,7 @@ def button():
             .button {
                 display: flex;
                 height: 3rem;
-                width: 20rem;
+                width: 18rem;
                 background-color: #D3D3D3;              
                 justify-content: center;
                 align-items: center;
