@@ -254,7 +254,7 @@ def button():
             .button {
                 display: flex;
                 height: 3rem;
-                width: 18rem;
+                width: 15rem;
                 background-color: #D3D3D3;              
                 justify-content: center;
                 align-items: center;
@@ -274,7 +274,7 @@ def button():
             }           
         </style>
         <div class="button">            
-            <a href="#section4">Calculate Now. 🌳</a>
+            <a href="#section4">Calculate Now.🌳</a>
         </div>  
         """,
         unsafe_allow_html=True
