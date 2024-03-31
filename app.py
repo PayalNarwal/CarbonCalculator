@@ -7,7 +7,7 @@ st.markdown('<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@10
 # Function to create a navigation bar
 def create_navbar():
     # Add your team name on the left
-    st.markdown('<h1 style="text-align: left; color: maroon; font-family: Raleway, sans-serif;">ATLAS</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 style="text-align: left; color: maroon; font-family: Raleway, sans-serif;">ATLAS4ALL</h1>', unsafe_allow_html=True)
 
     # Add navigation links on the right
     st.markdown(
@@ -174,7 +174,7 @@ def section4():
 
     with col2:
         st.subheader("🗑️ Waste generated per week (in kg)")
-        st.markdown("Please input the average amount of waste your household generates in a week. The average is around 400kg in one week.")
+        st.markdown("Please input the average amount of waste your household generates in a week. The average is around 5.18kg in one week.")
         waste = st.slider("Waste", 0.0, 100.0, key="waste_input")
         
         st.subheader("🍽️ Number of meals per day")
@@ -373,7 +373,7 @@ def create_footer():
             <a href="https://www.linkedin.com/in/payalnarwal/"> Payal 🌐</a>
             <a href="https://www.linkedin.com/in/tech-explorer-riyaaa/"> Riya Ahlawat 🌐</a>
             <a href="https://www.linkedin.com/in/samriddhi-tiwari-837aaa261/"> Samriddhi Tiwari 🌐</a>        
-            <p>© 2024 ATLAS. All rights reserved.</p>
+            <p>© 2024 ATLAS4ALL. All rights reserved.</p>
         </div>  
         """,
         unsafe_allow_html=True
