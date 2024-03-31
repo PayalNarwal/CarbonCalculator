@@ -232,7 +232,7 @@ def section4():
             elif total_emissions>7:
                 st.error(f"🌍 Your total carbon footprint is: {total_emissions} tonnes CO2 per year")
             # st.success(f"🌍 Your total carbon footprint is: {total_emissions} tonnes CO2 per year")
-            st.warning("In 2021, CO2 emissions per capita for India was 1.9 tons of CO2 per capita. Between 1972 and 2021, CO2 emissions per capita of India grew substantially from 0.39 to 1.9 tons of CO2 per capita rising at an increasing annual rate that reached a maximum of 9.41% in 2021")
+            st.warning("In 2021, CO2 emissions per capita for India was 1.9 tonnes of CO2 per capita. Between 1972 and 2021, CO2 emissions per capita of India grew substantially from 0.39 to 1.9 tonnes of CO2 per capita rising at an increasing annual rate that reached a maximum of 9.41% in 2021")
      
 def section5():    
     faq_items = {
